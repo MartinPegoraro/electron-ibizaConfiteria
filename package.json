@@ -1,0 +1,19 @@
+{
+  "name": "ibiza-confi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "martinpegoraro-azorahai",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^13.1.7",
+    "mongoose": "^5.13.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

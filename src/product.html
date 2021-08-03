@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>IBIZA</h1>
+
+    <div id="bloque">
+        <form action="" id="product">
+            <input type="text" id="name" placeholder="Nombre del producto">
+
+            <select name="" id="ingredient">
+                <option value="" disable selected>Seleccione el ingrediente</option>
+            </select>
+            <input type="number" id="amount" placeholder="cantidad">
+
+            <button onclick="addTotal(event)">Sumar</button>
+            <br>
+            <button type="submit" id="save">Guardar</button>
+
+        </form>
+        <ul id="listIngredient">
+
+        </ul>
+    </div>
+
+    <script src="./ui/product.js"></script>
+
+</body>
+
+</html>
